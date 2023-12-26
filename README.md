@@ -145,11 +145,10 @@ After training the model, here are the evaluation metrics for both dog/cat and c
 
 ### Model Prediction
 
-| White Dog | Black Dog | White Cat | Black Cat |
-|-----------|-----------|-----------|-----------|
-| ![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/e73c1db5-d3af-44c2-b41d-e18a7b969690) |
-| ![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/ed309894-a738-48a4-876c-b030234a858c) |
-| ![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/866daebc-70e4-4154-829f-4339c494068d) |
-| ![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/72fdb210-e3dd-4ef2-958e-10ac7c30dc5e) |
-
+| Category      | Image Prediction |
+|---------------|------------------|
+| White Dog     | ![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/e73c1db5-d3af-44c2-b41d-e18a7b969690) |
+| Black Dog     | ![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/ed309894-a738-48a4-876c-b030234a858c) |
+| White Cat     | ![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/866daebc-70e4-4154-829f-4339c494068d) |
+| Black Cat     | ![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/72fdb210-e3dd-4ef2-958e-10ac7c30dc5e) |
 
