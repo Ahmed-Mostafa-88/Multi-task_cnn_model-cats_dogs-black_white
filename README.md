@@ -1,8 +1,5 @@
 # Custom Image Classification with CNN using OpenCV on Python
 
-### Model Prediction
-[Your Visual Representation for Model Prediction]
-
 ## Table of Contents
 1. [Introduction](#introduction)
     1. [Project Title](#project-title)
@@ -109,6 +106,7 @@ The CNN model architecture involves:
 After training the model, here are the evaluation metrics for both dog/cat and color classifications:
 
 ### Dog/Cat Classification
+![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/89a15866-97d4-4a73-bb59-5aded6eacfb0)
 - **Precision and Recall**:
   - Class 0 (Dog): Precision - 0.90, Recall - 0.67
   - Class 1 (Cat): Precision - 0.72, Recall - 0.92
@@ -126,6 +124,7 @@ After training the model, here are the evaluation metrics for both dog/cat and c
     - The model correctly predicted approximately 79% of the images as either dogs or cats in the test set.
 
 ### Color Classification
+![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/f4cc7ab0-5641-4f2c-9dbb-098241aae5fd)
 - **Precision and Recall**:
   - Class 0 (Black): Precision - 0.98, Recall - 0.99
   - Class 1 (White): Precision - 0.99, Recall - 0.99
