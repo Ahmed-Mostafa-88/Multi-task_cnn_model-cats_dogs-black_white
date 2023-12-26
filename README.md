@@ -106,14 +106,39 @@ The CNN model architecture involves:
   - Color Accuracy on Validation: Stays consistently high.
 - Testing Results:
   - High accuracy in both dog/cat (79.22%) and color (98.85%) classifications, showcasing strong performance on test data.
-- Classification Reports:
-  
-  For the dog/cat classification:
-	-Precision and Recall: The precision values for identifying class 0 (dog) and class 1 (cat) are 0.90 and 0.72, respectively. This demonstrates that when the model predicts an image as a dog, it is correct around 90% of the time, while for cats, it is correct about 72% of the time. The recall values (sensitivity) indicate that the model correctly identified 67% of actual dogs and 92% of actual cats in the dataset.
-	-F1-Score: It's a measure of a test's accuracy and ranges from 0 to 1, where a higher score indicates better performance. classes (dog and cat) have an F1-score of 0.77 and 0.81, respectively.  reflecting a somehow balanced performance between precision and recall for both categories.
-	-Accuracy: The overall accuracy of 79 % indicates the proportion of correctly predicted dog/cat classifications out of the total test set. It suggests that the model correctly identified approximately 79 % of the images as either dogs or cats.
-  For the color classification:
-	-Precision and Recall: For both colors (class 0 - black and class 1 - white), the precision and recall values are very high, black : 0.98 – white 0.99. These scores imply that when the model predicts an image as black or white, it is accurate around 99% of the time. Moreover, it correctly identifies about 99% of the actual black and white images in the dataset.
-	-F1-Score: The F1-score, is also 0.99 for both classes. This score suggests a high level of accuracy in identifying both black and white colors, reflecting a balance between precision and recall.
-	-Accuracy: The overall accuracy of 99% indicates that the model correctly classified 99% of the images with respect to their colors, whether black or white.
+## Results
+After training the model, here are the evaluation metrics for both dog/cat and color classifications:
 
+### Dog/Cat Classification
+- **Precision and Recall**:
+  - Class 0 (Dog): Precision - 0.90, Recall - 0.67
+  - Class 1 (Cat): Precision - 0.72, Recall - 0.92
+  - Interpretation:
+    - The model correctly identifies dogs around 90% of the time, while for cats, it is correct about 72% of the time.
+    - The model correctly identified 67% of actual dogs and 92% of actual cats in the dataset.
+- **F1-Score**:
+  - Class 0 (Dog): 0.77
+  - Class 1 (Cat): 0.81
+  - Interpretation:
+    - F1-scores (0 to 1) suggest a somewhat balanced performance between precision and recall for both dog and cat categories.
+- **Accuracy**:
+  - Overall accuracy: 79%
+  - Interpretation:
+    - The model correctly predicted approximately 79% of the images as either dogs or cats in the test set.
+
+### Color Classification
+- **Precision and Recall**:
+  - Class 0 (Black): Precision - 0.98, Recall - 0.99
+  - Class 1 (White): Precision - 0.99, Recall - 0.99
+  - Interpretation:
+    - The model accurately predicts black or white color around 99% of the time.
+    - It correctly identifies about 99% of the actual black and white images in the dataset.
+- **F1-Score**:
+  - Class 0 (Black): 0.99
+  - Class 1 (White): 0.99
+  - Interpretation:
+    - High F1-scores (0 to 1) indicate a high level of accuracy in identifying both black and white colors, suggesting a balance between precision and recall.
+- **Accuracy**:
+  - Overall accuracy: 99%
+  - Interpretation:
+    - The model correctly classified 99% of the images with respect to their colors, whether black or white.
