@@ -29,11 +29,36 @@ Custom animal type (cat/dog) and color (white/black) Classification with CNN usi
 Develop an accurate CNN model capable of classifying images into cat or dog categories and identifying their colors white or black with high precision and recall.
 
 ## Data Creation
-The dataset consists of images categorized into cats and dogs, each divided into white and black color categories. Details:
-- Cats - White: 400 images
-- Cats - Black: 400 images
-- Dogs - White: 400 images
-- Dogs - Black: 400 images
+
+## About Dataset
+### Description
+This dataset comprises a collection of images that are categorized into two main classes: cats and dogs. Each class further contains subcategories based on color, namely white and black.
+
+The dataset includes the following structure:
+
+- **Cats**
+  - **White**: Images of cats with white fur.
+  - **Black**: Images of cats with black fur.
+  
+- **Dogs**
+  - **White**: Images of dogs with white fur.
+  - **Black**: Images of dogs with black fur.
+
+The dataset is well-structured and labeled, making it suitable for tasks like image classification. It is particularly useful for training and evaluating models designed to classify animal types (cats or dogs) and distinguish their colors (white or black).
+
+### Contents
+
+- **Cats (White)**: [Number of images: 400]
+- **Cats (Black)**: [Number of images: 400]
+- **Dogs (White)**: [Number of images: 400]
+- **Dogs (Black)**: [Number of images: 400]
+
+These images are sourced from diverse collections, ensuring a wide variety of cat and dog breeds across various backgrounds and environments. The dataset's labeling and diversity provide a robust foundation for developing and testing image classification models.
+
+### Dataset Creation
+
+The dataset was created by [Your Name] and is available on Kaggle at [CD-Deep Dataset](https://www.kaggle.com/datasets/ahmedmostafa11111/cd-deep). 
+
 
 ## Data Preprocessing
 ### Data Loading and Structuring
