@@ -19,6 +19,7 @@
     6. [Dense Layers](#dense-layers)
 5. [Model Training](#model-training)
 6. [Results](#results)
+7. [Model Prediction](#model-prediction)
 
 ## Introduction
 ### Project Title
@@ -93,6 +94,7 @@ The CNN model architecture involves:
 - Model Training: Trained on the training data for a specified number of epochs and batch size.
 
 ## Results
+![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/dd77acfc-91f9-44f5-9013-457cfcfb3fa4)
 - Training Results:
   - Accuracy: The accuracy for both dog/cat classification and color classification tasks improves gradually over epochs. Initially, the accuracy for dog/cat tasks starts around 54%-55% and progressively increases, while color starts high and continue increasing.
   - Loss: The overall loss (including both dog/cat and color losses) decreases significantly from an initial value of around 6.97 to a much lower value, indicating improvement in the model's performance.
@@ -140,3 +142,14 @@ After training the model, here are the evaluation metrics for both dog/cat and c
   - Overall accuracy: 99%
   - Interpretation:
     - The model correctly classified 99% of the images with respect to their colors, whether black or white.
+
+### Model Prediction
+
+| White Dog | Black Dog | White Cat | Black Cat |
+|-----------|-----------|-----------|-----------|
+| ![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/e73c1db5-d3af-44c2-b41d-e18a7b969690) |
+| ![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/ed309894-a738-48a4-876c-b030234a858c) |
+| ![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/866daebc-70e4-4154-829f-4339c494068d) |
+| ![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/72fdb210-e3dd-4ef2-958e-10ac7c30dc5e) |
+
+
