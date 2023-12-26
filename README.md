@@ -98,11 +98,13 @@ The CNN model architecture involves:
 
 ## Results
 - Training Results:
-  - Gradual improvement in accuracy and decrease in loss over epochs.
+  - Accuracy: The accuracy for both dog/cat classification and color classification tasks improves gradually over epochs. Initially, the accuracy for dog/cat tasks starts around 54%-55% and progressively increases, while color starts high and continue increasing.
+  - Loss: The overall loss (including both dog/cat and color losses) decreases significantly from an initial value of around 6.97 to a much lower value, indicating improvement in the model's performance.
 - Validation Results:
-  - Consistency in performance across validation sets for both dog/cat and color classifications.
+  - Validation loss and accuracy follow similar patterns to the training set, indicating the model's consistency in learning and generalizing.
+  - Dog/Cat Accuracy on Validation: varies around 52% to 80% 
+  - Color Accuracy on Validation: Stays consistently high.
 - Testing Results:
   - High accuracy in both dog/cat (79.22%) and color (98.85%) classifications, showcasing strong performance on test data.
 - Classification Reports:
   - Precision, Recall, F1-Score, and Accuracy metrics for both dog/cat and color classifications.
-
