@@ -57,7 +57,7 @@ These images are sourced from diverse collections, ensuring a wide variety of ca
 
 ### Dataset Creation
 
-The dataset was created by [Your Name] and is available on Kaggle at [CD-Deep Dataset](https://www.kaggle.com/datasets/ahmedmostafa11111/cd-deep). 
+The dataset was created by me and is available on Kaggle at [CD-Deep Dataset](https://www.kaggle.com/datasets/ahmedmostafa11111/cd-deep). 
 
 
 ## Data Preprocessing
