@@ -52,7 +52,8 @@ The dataset consists of images categorized into cats and dogs, each divided into
 ### Data Resizing, Normalization, Augmentation
 Techniques | Explanation | Display
 --- | --- | ---
-Resizing | Resize images to (150x150 pixels) for the model's input size. | ![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/eeb677c1-59dc-49bf-a184-1c513074f5db)
+Resizing | Resize images to (150x150 pixels) for the model's input size. | [![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/3d4b3486-6fbf-4bcc-88e0-ea30be634e5d)
+] 
 
 Normalization | Normalize pixel values to a scale between 0 and 1 for effective pattern learning. | [Your Visual Representation for Normalization]
 Rotation, Width/Height Shift, Horizontal Flip | Augment data for better training and reduce overfitting. | [Your Visual Representation for Augmentation]
