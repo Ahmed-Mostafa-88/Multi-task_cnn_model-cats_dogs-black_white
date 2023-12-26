@@ -64,8 +64,7 @@ Categorical labels for dog/cat and color classifications transformed into binary
 ## CNN Model
 
 ### Model Architecture
-[![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/a7601275-5ad6-4488-837a-e0cbf12fbb4f)
-]
+![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/a7601275-5ad6-4488-837a-e0cbf12fbb4f)
 
 The CNN model architecture involves:
 ### Input Layer
