@@ -1,12 +1,5 @@
 # Custom Image Classification with CNN using OpenCV on Python
 
-## Visual Representation for
-### Data augmentation
-[Your Visual Representation for Data Augmentation]
-
-### Model Architecture
-[Your Visual Representation for Model Architecture]
-
 ### Model Prediction
 [Your Visual Representation for Model Prediction]
 
@@ -55,9 +48,15 @@ Techniques | Explanation | Display
 Resizing | Resize images to (150x150 pixels) for the model's input size. | [![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/3d4b3486-6fbf-4bcc-88e0-ea30be634e5d)
 ] 
 
-Normalization | Normalize pixel values to a scale between 0 and 1 for effective pattern learning. | [Your Visual Representation for Normalization]
-Rotation, Width/Height Shift, Horizontal Flip | Augment data for better training and reduce overfitting. | [Your Visual Representation for Augmentation]
-
+Normalization | Normalize pixel values to a scale between 0 and 1 for effective pattern learning. | [![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/2771e846-30f7-4281-8204-e9f0ac765925)
+]
+Rotation | Rotate the image by a certain angle (20). | [![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/fa178371-d476-4b17-95aa-f687a54891a0)
+]
+Width/Height Shift, Horizontal Flip | Perform shifting of the image horizontally and vertically. | [![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/821c3259-c734-4992-b295-9b6cb63b6b97)
+] [![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/e40441cb-369d-4d06-9bd6-b6cfd719d691)
+]
+Horizontal Flip | Flip the image horizontally. | [![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/c203856d-5225-4a3b-88ac-fd5b18763f68)
+]
 - Augmented images are combined with original images for a more diverse training dataset.
 
 ### Train-Validation-Test Split
@@ -69,6 +68,11 @@ Rotation, Width/Height Shift, Horizontal Flip | Augment data for better training
 Categorical labels for dog/cat and color classifications transformed into binary vectors for effective training.
 
 ## CNN Model
+
+### Model Architecture
+[![image](https://github.com/Ahmed-Mostafa-88/Multi-task_cnn_model-cats_dogs-black_white/assets/144740078/a7601275-5ad6-4488-837a-e0cbf12fbb4f)
+]
+
 The CNN model architecture involves:
 ### Input Layer
 - Input Shape (150, 150, 3): Images with dimensions of 150x150 pixels and three channels (RGB).
