@@ -1,4 +1,3 @@
-# Multi-task_cnn_model-cats_dogs-black_white
 # Custom Image Classification with CNN using OpenCV on Python
 
 ## Visual Representation for
