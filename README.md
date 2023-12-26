@@ -107,6 +107,7 @@ The CNN model architecture involves:
 - Testing Results:
   - High accuracy in both dog/cat (79.22%) and color (98.85%) classifications, showcasing strong performance on test data.
 - Classification Reports:
+  
   For the dog/cat classification:
 	-Precision and Recall: The precision values for identifying class 0 (dog) and class 1 (cat) are 0.90 and 0.72, respectively. This demonstrates that when the model predicts an image as a dog, it is correct around 90% of the time, while for cats, it is correct about 72% of the time. The recall values (sensitivity) indicate that the model correctly identified 67% of actual dogs and 92% of actual cats in the dataset.
 	-F1-Score: It's a measure of a test's accuracy and ranges from 0 to 1, where a higher score indicates better performance. classes (dog and cat) have an F1-score of 0.77 and 0.81, respectively.  reflecting a somehow balanced performance between precision and recall for both categories.
